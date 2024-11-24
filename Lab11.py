@@ -115,9 +115,11 @@ def main_menu():
 
 
 # Paths to files
-students_file_path = 'students.txt'
-assignments_file_path = 'assignments.txt'
-submissions_folder_path = 'submissions'
+# Relative paths for the script to locate files in the same directory
+students_file_path = './students.txt'
+assignments_file_path = './assignments.txt'
+submissions_folder_path = './submissions'
+
 
 # Load data
 students = load_students(students_file_path)
